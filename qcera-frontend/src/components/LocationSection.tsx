@@ -48,6 +48,18 @@ const LocationSection = () => {
 
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                  <MapPin className="w-5 h-5 text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-foreground mb-1">Proprietor</h3>
+                  <p className="text-muted-foreground">
+                    Pranik Pathak
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
                   <Phone className="w-5 h-5 text-primary" />
                 </div>
                 <div>
