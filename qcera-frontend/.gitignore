@@ -1,0 +1,47 @@
+# ===========================
+# 🔥 QCERA WEB PROJECT IGNORE
+# Frontend (Vite/React)
+# Backend (Node + Email API)
+# ===========================
+
+# ----- Logs -----
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ----- Node Modules -----
+node_modules/
+qcera-frontend/node_modules/
+qcera-backend/node_modules/
+
+# ----- Build Output -----
+dist/
+dist-ssr/
+qcera-frontend/dist/
+
+# ----- Environment secrets (must not upload) -----
+.env
+*.env
+qcera-backend/.env
+qcera-frontend/.env
+
+# ----- Local config -----
+*.local
+
+# ----- Editor / IDE files -----
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ----- System files -----
+.DS_Store
+Thumbs.db
